@@ -49,14 +49,14 @@ const externalHTML = `
 </article>
 
 <section class="article labels">
-<a class="category" href=""#>Twibbon</a>
-<a class="category" href=""#>Generator</a>
+<a class="category" href="#">Twibbon</a>
+<a class="category" href="#">Generator</a>
 </section>
 </div>
 
 <div class="article bottom">
 <section class="article navigation">
-<p><a class="link" href="#"><span class="iconfont icon-article"></span>Twibbon Generator v.2</a></p>
+<p><a class="link" href="/twibbon"><span class="iconfont icon-article"></span>Twibbon Generator v.2</a></p>
 <p><a class="link" href="#"><span class="iconfont icon-article"></span>QR Code Generator</a></p>
 </section>
 </div>
