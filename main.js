@@ -32,7 +32,7 @@ const externalHTML = `
 <form>
 <input type="file" accept="image/png, image/jpeg" onchange="loadFile(event)" />
 </form>
-<img id="img1" alt="Unggah Gambar">
+<img style="display: none" id="img1" alt="Unggah Gambar">
 </p>
 
 <p><strong>Unggah Bingkai</strong></p><br>
@@ -40,7 +40,7 @@ const externalHTML = `
 <form>
 <input type="file" accept="image/png, image/jpeg" onchange="loadTemplate(event)" />
 </form>
-<img id="gambartemplate" src="#" alt="Unggah Bingkai">
+<img style="display: none" id="gambartemplate" src="#" alt="Unggah Bingkai">
 </p>
 
 <!--<p style="text-align:center;color:red;" id="warning" class=""></p><br>-->
