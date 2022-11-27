@@ -13,15 +13,15 @@ $('[type="file"]').ezdz({
   reject: function(file, errors) {
     
     if (errors.mimeType) {
-      alert(file.name + ' must be an image');
+      alert(file.name + ' harus berupa gambar');
     }
       
     if (errors.maxWidth) {
-      alert(file.name + ' must be width:1024px max');
+      alert(file.name + ' harus lebar:1024px max');
     }
 
     if (errors.maxHeight) {
-      alert(file.name + ' must be height:1024px max');
+      alert(file.name + ' harus tinggi:1024px max');
     }
     
   }
