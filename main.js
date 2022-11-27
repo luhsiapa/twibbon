@@ -27,7 +27,7 @@ const externalHTML = `
 
 <p>Silahkan unggah gambar dan klik pratinjau lalu unduh, aplikasi ini akan otomatis menggabungkan unggahan gambar yang Anda pilih.</p><br>
 
-<p><strong>Unggah Gambar</strong></p><br>
+<p><strong>Unggah Gambar</strong></p>
 <p>
 <form>
 <input type="file" accept="image/png, image/jpeg" onchange="loadFile(event)" />
@@ -35,7 +35,7 @@ const externalHTML = `
 <img style="display: none" id="img1" alt="Unggah Gambar">
 </p>
 
-<p><strong>Unggah Bingkai</strong></p><br>
+<p><strong>Unggah Bingkai</strong></p>
 <p>
 <form>
 <input type="file" accept="image/png, image/jpeg" onchange="loadTemplate(event)" />
