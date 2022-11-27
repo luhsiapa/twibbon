@@ -5,7 +5,7 @@ const externalHTML = `
 <div class="header wrap">
 <span class="header left-side">
 <a class="site home" href="/">
-<span class="site name">LUH SIAPA</span>
+<span class="site name">LUHSIAPA.TK</span>
 </a>
 </span>
 <span class="header right-side"></span>
@@ -94,7 +94,7 @@ const externalHTML = `
 
 <section id="footer">
 <div class="footer-wrap">
-<p class="copyright">© 2021 Luh Siapa.</p>
+<p class="copyright">© 2021 LUHSIAPA.TK</p>
 <p class="powerby">
 <span>Powered&nbsp;by&nbsp;</span>
 <a href="https://www.facebook.com/bungferry.wa" target="_blank" rel="noopener noreferrer">Ferry Ayunda</a>
