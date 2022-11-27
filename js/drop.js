@@ -6,8 +6,8 @@ $('[type="file"]').ezdz({
   text: 'Drop files here.',
   
   validators: {
-    maxWidth: 1080,
-    maxHeight: 1080
+    maxWidth: 1024,
+    maxHeight: 1024
   },
   
   reject: function(file, errors) {
