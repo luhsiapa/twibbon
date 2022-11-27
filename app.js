@@ -88,7 +88,7 @@ const externalHTML = `
 <p class="copyright">© 2021 Luh Siapa.</p>
 <p class="powerby">
 <span>Powered&nbsp;by&nbsp;</span>
-<a href="#" target="_blank" rel="noopener noreferrer">Ferry Ayunda</a>
+<a href="https://www.facebook.com/bungferry.wa" target="_blank" rel="noopener noreferrer">Ferry Ayunda</a>
 <span>&nbsp;&amp;&nbsp;</span>
 <a href="#" target="_blank" rel="noopener noreferrer">Secangkir Kopi</a></p>
 </div>
