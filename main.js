@@ -25,7 +25,7 @@ const externalHTML = `
 
 <p>Ini adalah situs web tempat Anda dapat menambahkan foto ke bingkai.</p><br>
 
-<p>Silahkan unggah gambar dan klik pratinjau lalu unduh, aplikasi ini akan otomatis menggabungkan unggahan gambar yang Anda pilih.</p><br>
+<p>Silahkan unggah gambar dan bingkai kemudian klik pratinjau lalu unduh, aplikasi ini akan otomatis menggabungkan unggahan gambar dan bingkai yang Anda pilih.</p><br>
 
 <p><strong>Unggah Gambar</strong></p>
 <p>
