@@ -66,6 +66,7 @@ const externalHTML = `
 <div class="custom-modal-inner">
 <!-- Contetn here -->
 <h4 style="text-align:center;color:red;" id="warning"></h4>
+<p style="text-align:center;color:red;" id="danger"></p>
 <p><canvas id="canvas"></canvas></p><br>
 <p>
 <div class="buttons-ctr">
