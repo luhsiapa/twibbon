@@ -1,6 +1,6 @@
 // js
 
-
+document.getElementById('warning').textContent = "";
 $('[type="file"]').ezdz({
   
   text: 'drop a picture.',
@@ -17,7 +17,9 @@ $('[type="file"]').ezdz({
     }
       
     if (errors.maxWidth) {
-      alert(file.name + ' harus lebar:1024px max');
+  //    alert(file.name + ' harus lebar:1024px max');
+        document.getElementById('warning').textContent = "file.name + ' harus lebar:1024px max' ";
+
     }
 
     if (errors.maxHeight) {
