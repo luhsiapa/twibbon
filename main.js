@@ -45,6 +45,8 @@ const externalHTML = `
 
 <!--<p style="text-align:center;color:red;" id="warning" class=""></p><br>-->
 <!-- <p style="text-align:center;"><strong>Png or Jpeg, max 1024x1024</strong></p><br> -->
+<p style="color:red;" id="info" class=""></p><br>
+
 
 <p>
 <div class="buttons-ctr">
