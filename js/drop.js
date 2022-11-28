@@ -1,7 +1,5 @@
 // js
 
-document.getElementById('danger').textContent = "";
-
 $('[type="file"]').ezdz({
   
   text: 'drop a picture.',
@@ -14,17 +12,15 @@ $('[type="file"]').ezdz({
   reject: function(file, errors) {
     
     if (errors.mimeType) {
-     // alert(file.name + ' harus berupa gambar');
-        document.getElementById('danger').textContent = "Harus berupa gambar!";
-
+      alert(file.name + ' harus berupa gambar');        
     }
       
     if (errors.maxWidth) {
-      alert(file.name + ' harus lebar:1024px max');        
+      alert(file.name + ' harus lebar: 1024px maksimal');        
     }
 
     if (errors.maxHeight) {
-      alert(file.name + ' harus tinggi:1024px max');        
+      alert(file.name + ' harus tinggi: 1024px maksimal');        
     }
     
   }
