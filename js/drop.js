@@ -17,11 +17,11 @@ $('[type="file"]').ezdz({
     }
       
     if (errors.maxWidth) {
-      alert(file.name + ' harus lebar: 1024px maksimal');        
+      alert(file.name + ' harus lebar: 1280px maksimal');        
     }
 
     if (errors.maxHeight) {
-      alert(file.name + ' harus tinggi: 1024px maksimal');        
+      alert(file.name + ' harus tinggi: 1280px maksimal');        
     }
     
   }
