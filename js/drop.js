@@ -1,18 +1,19 @@
 // js
 
+
 $('[type="file"]').ezdz({
   
   text: 'drop a picture.',
   
   validators: {
-    maxWidth: 1024,
-    maxHeight: 1024
+    maxWidth: 1280,
+    maxHeight: 1280
   },
   
   reject: function(file, errors) {
     
     if (errors.mimeType) {
-      alert(file.name + ' harus berupa gambar');        
+      alert(file.name + ' harus berupa gambar!');        
     }
       
     if (errors.maxWidth) {
