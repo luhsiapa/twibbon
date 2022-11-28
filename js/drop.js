@@ -1,6 +1,6 @@
 // js
 
-document.getElementById('warning').textContent = "";
+document.getElementById('danger').textContent = "";
 
 $('[type="file"]').ezdz({
   
