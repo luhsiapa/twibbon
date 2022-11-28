@@ -21,7 +21,6 @@ const externalHTML = `
 
 <article class="article markdown-body">
 <section>
-<!-- <a href="https://susebershop.com/wp-content/uploads/2015/10/SEKOLAH-TINGGI-TEKNOLOGI-DUTA-BANGSA.jpg" target="_blank"><img class=lozad data-src="https://susebershop.com/wp-content/uploads/2015/10/SEKOLAH-TINGGI-TEKNOLOGI-DUTA-BANGSA.jpg" rel="noopener noreferrer"/></a>Sekolah Tinggi Teknologi Duta Bangsa-->
 
 <p>Ini adalah situs web tempat Anda dapat menambahkan foto ke bingkai.</p><br>
 
@@ -34,16 +33,13 @@ const externalHTML = `
 </p>
 <p><strong>Png atau Jpeg, max 1024x1024</strong></p><br>
 
-<p style="text-align:center;color:red;" id="warning" class=""></p><br>
-<!-- <p style="text-align:center;"><strong>Png or Jpeg, max 1024x1024</strong></p><br> -->
+<p style="text-align:center;color:red;" id="danger" class=""></p><br>
 
 <p>
 <div class="buttons-ctr">
 <button class="wink modal-link" onclick="generate()">Pratinjau</button>
 </div>
 </p><br>
-
-<!--<p><canvas id="canvas"></canvas></p><br>-->
 
 </section>
 </article>
