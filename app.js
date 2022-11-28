@@ -31,7 +31,7 @@ const externalHTML = `
 <input id="image_input" type="file" accept="image/png, image/jpeg" />
 </form>
 </p>
-<p><strong>Png atau Jpeg, max 1024x1024</strong></p><br>
+<p><strong>Png atau Jpeg, max 1280x1280</strong></p><br>
 
 <p style="text-align:center;color:red;" id="danger" class=""></p><br>
 
@@ -64,7 +64,6 @@ const externalHTML = `
 <!--<span class="close-modal"></span>-->
 <div class="custom-modal-body">
 <div class="custom-modal-inner">
-<!-- Contetn here -->
 <h4 style="text-align:center;color:red;" id="warning"></h4>
 <p style="text-align:center;color:red;" id="danger"></p>
 <p><canvas id="canvas"></canvas></p><br>
