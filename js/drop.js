@@ -15,7 +15,7 @@ $('[type="file"]').ezdz({
     
     if (errors.mimeType) {
      // alert(file.name + ' harus berupa gambar');
-        document.getElementById('warning').textContent = "Harus berupa gambar!";
+        document.getElementById('danger').textContent = "Harus berupa gambar!";
 
     }
       
