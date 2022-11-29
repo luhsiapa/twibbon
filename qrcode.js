@@ -1,4 +1,4 @@
-const main = document.getElementById('app');
+const main = document.getElementById('root');
 
 const externalHTML = `
 <section id="header">
