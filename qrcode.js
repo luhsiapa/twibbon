@@ -22,24 +22,35 @@ const externalHTML = `
 <article class="article markdown-body">
 <section>
 
-<p>Ini adalah situs web tempat Anda dapat menambahkan foto ke bingkai.</p><br>
+<p>Generator Kode QR Online Gratis untuk membuat Kode QR Anda sendiri.</p><br>
 
-<p>Silahkan unggah gambar dan klik pratinjau lalu unduh, aplikasi ini akan otomatis menggabungkan unggahan gambar yang Anda pilih.</p><br>
+<p>Pembuat kode QR yang mudah. buat kode QR dalam dua klik: salin tautan Anda, hasilkan QR, dan unduh!</p><br>
+
+<p>Klik kanan dan save untuk PC atau sentuh dan tahan lalu unduh Qr Code untuk smartphone jika link 'Unduh' tidak muncul.</p><br>
+
+<p><strong>Masukan text atau url:</strong></p><br>
 
 <p>
 <form>
-<input id="image_input" type="file" accept="image/png, image/jpeg" />
+<input class="" type="text" placeholder="Masukkan Teks Atau URL" />
+<button class="gen-btn wink" type="button">GENERATE</button>
 </form>
-</p>
-<p><strong>Png atau Jpeg, maksimal 1280x1280</strong></p><br>
+</p><br>
+
+<p>
+<div class="qr-code hidden">
+<img data-tooltip="Sentuh dan tahan untuk unduh" class="qr" src="#" />
+</div>
+</p><br>
 
 <p style="text-align:center;color:red;" id="danger" class=""></p><br>
 
-<p>
+<!--
 <div class="buttons-ctr">
 <button class="wink modal-link" onclick="generate()">Pratinjau</button>
 </div>
 </p><br>
+-->
 
 </section>
 </article>
