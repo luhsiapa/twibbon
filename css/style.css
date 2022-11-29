@@ -34,3 +34,10 @@ form{margin: 20px 0;}canvas{width: 100%;height: auto;}
   font-weight: normal;
   text-decoration: inherit;
 }
+.qr-code {
+  border: 1px solid #9999;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  transition: display 1s;
+}
