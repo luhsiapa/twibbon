@@ -30,9 +30,11 @@ const externalHTML = `
 
 <p><strong>Masukan text atau url:</strong></p><br>
 
-<p>
 <form>
+<p>
 <input class="qr" type="text" placeholder="Masukkan Teks Atau URL" />
+</p><br>
+<p>
 <div class="buttons-ctr">
 <button class="gen-btn wink" type="button">GENERATE</button>
 </div>
@@ -41,7 +43,7 @@ const externalHTML = `
 
 <p>
 <div class="qr-code hidden">
-<img data-tooltip="Sentuh dan tahan untuk unduh" class="qr" src="#" />
+<img class="qr" src="#" />
 </div>
 </p><br>
 
