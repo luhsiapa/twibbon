@@ -32,7 +32,7 @@ const externalHTML = `
 
 <p>
 <form>
-<input class="" type="text" placeholder="Masukkan Teks Atau URL" />
+<input class="qr" type="text" placeholder="Masukkan Teks Atau URL" />
 <div class="buttons-ctr">
 <button class="gen-btn wink" type="button">GENERATE</button>
 </div>
