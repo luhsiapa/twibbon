@@ -53,8 +53,8 @@ const externalHTML = `
 </article>
 
 <section class="article labels">
-<a class="category" href="#">Twibbon</a>
-<a class="category" href="#">Generator</a>
+<a class="category" href="#">QR Code</a>
+<a class="category" href="#">Scan Code</a>
 </section>
 </div>
 
