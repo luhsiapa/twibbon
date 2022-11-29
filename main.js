@@ -59,8 +59,8 @@ const externalHTML = `
 </article>
 
 <section class="article labels">
-<a class="category" href=""#>Twibbon</a>
-<a class="category" href=""#>Generator</a>
+<a class="category" href="/twibbon">Twibbon</a>
+<a class="category" href="/qrcode">Generator</a>
 </section>
 </div>
 
