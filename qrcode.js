@@ -32,7 +32,7 @@ const externalHTML = `
 
 <form>
 <p>
-<input class="qr" type="text" placeholder="Masukkan Teks Atau URL" />
+<input class="qrcode" type="text" placeholder="Masukkan Teks Atau URL" />
 </p><br>
 <p>
 <div class="buttons-ctr">
