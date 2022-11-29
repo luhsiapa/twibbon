@@ -28,7 +28,7 @@ const externalHTML = `
 
 <p>Klik kanan dan save untuk PC atau sentuh dan tahan lalu unduh Qr Code untuk smartphone jika link 'Unduh' tidak muncul.</p><br>
 
-<p><strong>Masukan text atau url:</strong></p><br>
+<p><strong>Masukan text atau url:</strong></p>
 
 <form>
 <p>
