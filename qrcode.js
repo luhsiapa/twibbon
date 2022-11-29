@@ -30,6 +30,8 @@ const externalHTML = `
 
 <p><strong>Masukan text atau url:</strong></p>
 
+<p style="color:red;" id="warning" class=""></p>
+
 <form>
 <p>
 <input class="qrcode" type="text" placeholder="Masukkan Teks Atau URL" />
@@ -46,8 +48,6 @@ const externalHTML = `
 <img class="qr" src="#" />
 </div>
 </p><br>
-
-<p style="text-align:center;color:red;" id="danger" class=""></p><br>
 
 </section>
 </article>
