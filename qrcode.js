@@ -61,7 +61,7 @@ const externalHTML = `
 <div class="article bottom">
 <section class="article navigation">
 <p><a class="link" href="/twibbon"><span class="iconfont icon-article"></span>Twibbon Generator v.2</a></p>
-<p><a class="link" href="#"><span class="iconfont icon-article"></span>QR Code Generator</a></p>
+<p><a class="link" href="/qrcode"><span class="iconfont icon-article"></span>QR Code Generator</a></p>
 </section>
 </div>
 </section>
