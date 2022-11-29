@@ -1,3 +1,5 @@
+// js
+
 const genBtn = document.querySelector(".gen-btn");
 const qrCodeBox = document.querySelector(".qr-code");
 const input = document.querySelector("input");
