@@ -28,7 +28,7 @@ form{margin: 20px 0;}canvas{width: 100%;height: auto;}
 .hidden {
   display: none;
 }
-.qr {
+.qrcode {
   padding:10px;
   font-style: normal;
   font-weight: normal;
