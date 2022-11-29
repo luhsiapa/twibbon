@@ -45,13 +45,6 @@ const externalHTML = `
 
 <p style="text-align:center;color:red;" id="danger" class=""></p><br>
 
-<!--
-<div class="buttons-ctr">
-<button class="wink modal-link" onclick="generate()">Pratinjau</button>
-</div>
-</p><br>
--->
-
 </section>
 </article>
 
