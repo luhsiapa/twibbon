@@ -1,5 +1,6 @@
 // js
 
+const download = document.querySelector(".download");
 const genBtn = document.querySelector(".gen-btn");
 const qrCodeBox = document.querySelector(".qr-code");
 const input = document.querySelector("input");
@@ -25,11 +26,4 @@ genBtn.addEventListener("click", () => {
   });
 });
 
-// save QR Code
-function saveQRCode() {
-    const anchor = document.createElement('a');
-    anchor.setAttribute('download', 'qrcode.png');
-    anchor.setAttribute('href', image.toDataURL('image/png'));
-    anchor.click();
-}
-window.saveQRCode = saveQRCode;
+
