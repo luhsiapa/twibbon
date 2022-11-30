@@ -1,6 +1,6 @@
 // js
 
-const download = document.querySelector(".download");
+const downloadBtn = document.getElementById('download');
 const genBtn = document.querySelector(".gen-btn");
 const qrCodeBox = document.querySelector(".qr-code");
 const input = document.querySelector("input");
@@ -26,4 +26,17 @@ genBtn.addEventListener("click", () => {
   });
 });
 
+
+function download() {
+  ctx.drawImage(qrCodeBox, 0, 0);
+  var imgBase64 = image.toDataURL();
+  var imgURL = "data:image/" + imgBase64;
+  var dlLink = document.createElement('a');
+  dlLink.download = 'qrdownload.png';
+  dlLink.href = imgURL;
+  dlLink.dataset.downloadurl = [MIME_TYPE, dlLink.download, dlLink.href].join(':');
+  document.body.appendChild(dlLink);
+  dlLink.click();
+  document.body.removeChild(dlLink);
+}
 
