@@ -45,8 +45,9 @@ const externalHTML = `
 
 <p>
 <div class="qr-code hidden">
+<a href="https://chart.googleapis.com/chart?cht=qr&choe=UTF-8&chs=350x350&chl=${inputValue}" download>
 <img class="qr" id="qr" src="#" /><br>
-<button class="wink" id="save" type="button">Buat QR Code</button>
+</a>
 </div>
 </p><br>
 
