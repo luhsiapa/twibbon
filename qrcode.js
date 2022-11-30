@@ -38,7 +38,7 @@ const externalHTML = `
 </p><br>
 <p>
 <div class="buttons-ctr">
-<button class="gen-btn wink" type="button">GENERATE</button>
+<button class="gen-btn wink" type="button">Buat QR Code</button>
 </div>
 </form>
 </p><br>
@@ -46,7 +46,6 @@ const externalHTML = `
 <p>
 <div class="qr-code hidden">
 <img class="qr" src="#" /><br>
-<button type="button" class="wink btn" id="download">Save QR Code</button>
 </div>
 </p><br>
 
