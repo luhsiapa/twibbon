@@ -48,7 +48,6 @@ const externalHTML = `
 <img class="qr" src="#" /><br>
 </div>
 </p><br>
-<a href="https://chart.googleapis.com/chart?cht=qr&choe=UTF-8&chs=350x350&chl=${inputValue}" download>Download</a>
 
 </section>
 </article>
