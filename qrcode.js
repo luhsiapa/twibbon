@@ -45,9 +45,7 @@ const externalHTML = `
 
 <p>
 <div class="qr-code hidden">
-<a href="https://chart.googleapis.com/chart?cht=qr&choe=UTF-8&chs=350x350&chl=${inputValue}" download>
 <img class="qr" id="qr" src="#" /><br>
-</a>
 </div>
 </p><br>
 
