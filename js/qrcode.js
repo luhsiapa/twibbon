@@ -25,3 +25,11 @@ genBtn.addEventListener("click", () => {
   });
 });
 
+// save QR Code
+function saveQRCode() {
+    const anchor = document.createElement('a');
+    anchor.setAttribute('download', 'qrcode.png');
+    anchor.setAttribute('href', qrCanvas.toDataURL('image/png'));
+    anchor.click();
+}
+window.saveQRCode = saveQRCode;
