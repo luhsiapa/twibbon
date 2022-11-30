@@ -29,7 +29,7 @@ genBtn.addEventListener("click", () => {
 function saveQRCode() {
     const anchor = document.createElement('a');
     anchor.setAttribute('download', 'qrcode.png');
-    anchor.setAttribute('href', qrCanvas.toDataURL('image/png'));
+    anchor.setAttribute('href', image.toDataURL('image/png'));
     anchor.click();
 }
 window.saveQRCode = saveQRCode;
