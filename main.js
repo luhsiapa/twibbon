@@ -100,7 +100,7 @@ const externalHTML = `
 <span>Powered&nbsp;by&nbsp;</span>
 <a href="https://www.facebook.com/bungferry.wa" target="_blank" rel="noopener noreferrer">Ferry Ayunda</a>
 <span>&nbsp;&amp;&nbsp;</span>
-<a href="#" target="_blank" rel="noopener noreferrer">Secangkir Kopi</a></p>
+<a href="https://saweria.co/bungferry" target="_blank" rel="noopener noreferrer">Secangkir Kopi</a></p>
 </div>
 </section>`;
 // shows the alert
