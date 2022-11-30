@@ -24,7 +24,7 @@ const externalHTML = `
 
 <p>Generator Kode QR Online Gratis untuk membuat Kode QR Anda sendiri.</p><br>
 
-<p>Pembuat kode QR yang mudah. buat kode QR dalam dua klik: salin tautan Anda, klik generate, dan unduh!</p><br>
+<p>Pembuat kode QR yang mudah. buat kode QR dalam dua klik: salin tautan Anda, klik buat qr code, dan unduh!</p><br>
 
 <p>Klik kanan dan save untuk PC atau sentuh dan tahan lalu unduh QR Code untuk smartphone jika link 'Unduh' tidak muncul.</p><br>
 
