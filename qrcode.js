@@ -46,7 +46,7 @@ const externalHTML = `
 <p>
 <div class="qr-code hidden">
 <img class="qr" src="#" /><br>
-<button type="button" class="download wink" onclick="saveQRCode();">Save QR Code</button>
+<button type="button" class="download wink">Save QR Code</button>
 </div>
 </p><br>
 
