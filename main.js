@@ -5,7 +5,7 @@ const externalHTML = `
 <div class="header wrap">
 <span class="header left-side">
 <a class="site home" href="/">
-<span class="site name">LUHSIAPA.TK</span>
+<span class="site name">LUHSIAPA.TK<span class="blinker">_</span></span>
 </a>
 </span>
 <span class="header right-side"></span>
