@@ -27,7 +27,7 @@ genBtn.addEventListener("click", () => {
 
 $(".download").addEventListener("click", () => {
     download(
-      $(".qr").getElementsByTagName("img")[0].src,
+      $(".qr-code").getElementsByTagName("img")[0].src,
       $(".inputValue").value + ".png",
       "image/png",
     );
