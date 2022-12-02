@@ -25,10 +25,10 @@ genBtn.addEventListener("click", () => {
   });
 });
 
-document.querySelector("#save").addEventListener("click", event => {
-    const image = document.querySelector("#qr");
-    // draw to canvas...
-    canvas.toBlob(function(blob) {
-        saveAs(blob, "qrcode");
-    });
-});
+$(".download").addEventListener("click", () => {
+    download(
+      $(".qr").getElementsByTagName("img")[0].src,
+      $(".inputValue").value + ".png",
+      "image/png",
+    );
+  });
