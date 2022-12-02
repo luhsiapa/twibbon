@@ -46,6 +46,8 @@ const externalHTML = `
 <p>
 <div class="qr-code hidden">
 <img class="qr" id="qr" src="#" /><br>
+
+<p>Klik kanan dan save untuk PC atau sentuh dan tahan lalu unduh QR Code untuk smartphone jika link 'Unduh' tidak muncul.</p>
 </div>
 </p><br>
 
