@@ -15,23 +15,23 @@ const externalHTML = `
 <section id="content">
 <div class="article-container">
 <section class="article header">
-<h1 class="article title">Twibbon Generator</h1>
+<h1 class="article title" data-animate-in="up">Twibbon Generator</h1>
 <p class="article date"></p>
 </section>
 
 <article class="article markdown-body">
 <section>
 
-<p>Ini adalah situs web tempat Anda dapat menambahkan foto ke bingkai.</p><br>
+<p data-animate-in="fadeIn" data-animate-in-delay="100">Ini adalah situs web tempat Anda dapat menambahkan foto ke bingkai.</p><br>
 
-<p>Silahkan unggah gambar dan klik pratinjau lalu unduh, aplikasi ini akan otomatis menggabungkan unggahan gambar yang Anda pilih.</p><br>
+<p data-animate-in="right" data-animate-in-delay="100">Silahkan unggah gambar dan klik pratinjau lalu unduh, aplikasi ini akan otomatis menggabungkan unggahan gambar yang Anda pilih.</p><br>
 
 <p>
 <form>
 <input id="image_input" type="file" accept="image/png, image/jpeg" />
 </form>
 </p>
-<p><strong>Png atau Jpeg, maksimal 1280x1280</strong></p><br>
+<p data-animate-in="left"><strong>Png atau Jpeg, maksimal 1280x1280</strong></p><br>
 
 <p style="text-align:center;color:red;" id="danger" class=""></p><br>
 
